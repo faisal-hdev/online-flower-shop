@@ -143,11 +143,26 @@ button:hover {
   justify-content: space-around;
 }
 
-.hot-deal-text {
+#hot-deal .hot-deal-main .hot-deal-text * {
+  margin-bottom: 24px;
+}
+
+#hot-deal .hot-deal-text h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#hot-deal .hot-deal-text span {
+  color: #e55473;
+}
+
+.hot-deal-main .hot-deal-text {
+  width: 100%;
+  max-width: 590px;
   text-align: center;
 }
 
-.hot-deal-main .hot-deal-text p {
-  width: 100%;
-  max-width: 550px;
+#hot-deal .hot-deal-img {
+  max-width: 318px;
 }
