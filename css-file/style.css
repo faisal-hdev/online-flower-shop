@@ -117,3 +117,18 @@ button:hover {
   margin-top: 20px;
   text-decoration-line: underline;
 }
+
+/* =========== Our Featured Section =========== */
+#featured {
+  margin: 120px 0;
+}
+
+.support-content {
+  display: flex;
+  padding: 70px 0;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(39, 39, 39, 0.05);
+}
