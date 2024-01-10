@@ -34,7 +34,7 @@ button:hover {
 }
 
 .container {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   max-width: 1440px;
 }
@@ -187,4 +187,34 @@ button:hover {
   flex-wrap: wrap;
   margin-top: 40px;
   justify-content: center;
+}
+
+/* ///////////// */
+#news-letter {
+  margin: 128px 0;
+  /* background-color: #e55473; */
+}
+
+.news-letter-main {
+  padding: 122px 0;
+  background-repeat: no-repeat;
+  background-image: url("../Flower-Asset/Rectangle\ 9.png");
+}
+
+#news-letter form {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  gap: 10px;
+}
+
+#news-letter form input {
+  border: none;
+  flex-grow: 1;
+  outline: none;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  color: rgba(39, 39, 39, 0.6);
 }
