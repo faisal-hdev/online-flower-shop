@@ -189,10 +189,8 @@ button:hover {
   justify-content: center;
 }
 
-/* ///////////// */
 #news-letter {
   margin: 128px 0;
-  /* background-color: #e55473; */
 }
 
 .news-letter-main {
@@ -217,4 +215,39 @@ button:hover {
   font-weight: 400;
   border-radius: 8px;
   color: rgba(39, 39, 39, 0.6);
+}
+
+/* ///// */
+/* ===========  Footer section  section =========== */
+footer {
+  background: #111010;
+}
+
+.footer-text-main {
+  margin: 0 auto;
+  padding: 128px 0;
+}
+
+.footer-text-main h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.footer-text-main span {
+  color: #e55473;
+}
+
+.footer-text-main p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer-text-main .copyrignt-text {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
 }
